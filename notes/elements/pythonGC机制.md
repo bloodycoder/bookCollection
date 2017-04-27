@@ -1,9 +1,11 @@
 ### 内容
 
 python GC是引用计数和generation GC相结合。
+
     1 a,b=1
     2 a=0
     3 b=0
+    
 python首先创建一个元素为1.然后用a,b指向它。此时的count为2。
 
 然后a=0，count--.b=0 count --.count减为0后python回收1的空间。
