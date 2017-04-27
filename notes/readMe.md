@@ -3,6 +3,6 @@
 这个notes文件夹包括我的计算机知识索引。文件之间会相互引用。
 
 你可以选择
-
+- 阅读我的[知识框架](https://github.com/bloodycoder/bookCollection/blob/master/notes/root.md)
 - 阅读平实文字写的笔记
-- 阅读我的知识框架
+
