@@ -13,3 +13,5 @@
 - output gate 
 
 至于公式，看图你就明白了。
+
+![lstm](./lstm-peepholes.png)
