@@ -1,0 +1,39 @@
+### 声明
+
+这段话将被替换成XML。
+
+---
+
+### 函数指针
+
+#### 指向函数的指针。
+
+    int (*f) (int,int);
+
+#### 指向成员函数的指针。
+
+    int (A::*f) (int,int);
+    
+#### 函数指针数组
+    
+    int (*f[]) (int,int);
+
+### 对内置类型set
+
+### c++类型转换
+
+- const_cast<T> 消除常量转换
+- dynamic_cast<T>
+- reinterpret_cast<T>
+- static_cast<T> 强迫隐式转换
+
+如果子类继承父类的`virtual`。可以不加，因为编译器会自动帮你加。但你加的话，方便阅读。
+
+### 继承
+
+继承意味着'is a'。不要把'has a'或者'is a implementation in terms of'弄混。
+
+如果你继承了有重载函数的base class。但你想改写重载函数中的一个。那么其余的重载函数，你得加上using。否则由于命名一样，会被作用域隐藏。
+
+
+
